@@ -1,0 +1,12 @@
+<template>
+    <section class="slds-var-p-left_medium">
+        <h2 class="section_heading">{details.HEADING}</h2>
+        <div class="slds-var-m-bottom_medium slds-is-relative">
+            <ul class="description_point_box subText">
+                <template for:each={details.SKILLS} for:item="skill">
+                    <li key={skill}>{skill}</li>      
+                </template>
+            </ul>
+        </div>
+    </section>
+</template>
