@@ -78,7 +78,7 @@ export const SKILLS_DATA = {
         "Have hands-on experience with various Salesforce tools, including Apex Classes, Asynchronous Apex, Lightning Web Component, Lightning Component, Visualforce, SOQL/SOSL, Salesforce Integration, and Migration Tool.",
         "Skilled in integrating various business processes across different systems using various Salesforce API's.",
         "Excellent understanding of Vs Code with Salesforce CLI and other Integrated Development Environments.",
-        "Excellent understanding of Source and Version Control, specifically GitHub & Bitbucket.",
+        "Excellent understanding of Source and Version Control, specifically Git, GitHub & Bitbucket.",
         "Have good knowledge of HTML, JavaScript, CSS, Java, Jsp, Servlet, Spring Boot, SQL, Angular & TypeScript.",
     ]
 };
