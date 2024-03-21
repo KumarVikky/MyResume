@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>*</members>
+        <members>cv_MyResumeContainer</members>
+        <members>cv_MyResumeExperience</members>
+        <members>cv_MyResumeExtra</members>
+        <members>cv_MyResumeHeader</members>
+        <members>cv_MyResumeSkills</members>
+        <members>cv_MyResumeSummary</members>
         <name>LightningComponentBundle</name>
     </types>
     <version>59.0</version>
