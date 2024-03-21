@@ -5,3 +5,8 @@
     background: #060b1b;
     color: #7081b9;
  }
+ @media print {
+   div.resContentBlock {
+     display:none;
+   }
+}

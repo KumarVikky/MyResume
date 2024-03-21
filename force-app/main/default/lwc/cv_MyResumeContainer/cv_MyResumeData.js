@@ -70,7 +70,7 @@ export const EXPERIENCE_DATA = {
                 "Gained knowledge and experience in integration of Salesforce.com with external applications by using web services REST API.",
                 "Develop and maintain test data as necessary to support testing efforts.",
                 "Development using Apex Trigger, Batch Apex, Lightning Component, Lightning Application, Apex, Visualforce page, and Visualforce component.",
-                "ntegration with Twilio for sending and receiving messages from salesforce to related contacts through Text or WhatsApp.",
+                "Integration with Twilio for sending and receiving messages from salesforce to related contacts through Text or WhatsApp.",
                 "Extensive development in Sales & Experience Cloud."
             ]
         }

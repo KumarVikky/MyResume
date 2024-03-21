@@ -1,23 +1,28 @@
 <template>
-    <div class="wrapper">
-        <div class="slds-var-p-around_medium header_color">
-            <c-cv_-my-resume-header social-details={resumeData.SOCIAL_LINKS} user-details={resumeData.USER_DETAILS} profile-image={resumeData.PROFILE_IMAGE}></c-cv_-my-resume-header>
-        </div>
-    </div>
-    <div class="slds-var-p-around_medium">
-        <c-cv_-my-resume-summary details={resumeData.CAREER_SUMMARY}></c-cv_-my-resume-summary> 
-    </div>
-    <div class="slds-var-p-around_medium">
-        <div class="slds-grid slds-wrap">
-            <div class="slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12">
-                <c-cv_-my-resume-experience details={resumeData.EXPERIENCE_DATA}></c-cv_-my-resume-experience>
-            </div>
-            <div class="slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12">
-                <c-cv_-my-resume-skills details={resumeData.SKILLS_DATA}></c-cv_-my-resume-skills>
-                <c-cv_-my-resume-extra details={resumeData.CERTIFICATION_DATA}></c-cv_-my-resume-extra>
-                <c-cv_-my-resume-extra details={resumeData.EDUCATION_DATA}></c-cv_-my-resume-extra>
-                <c-cv_-my-resume-extra details={resumeData.INTERESTS_DATA}></c-cv_-my-resume-extra>
+    <div class="contentBlock">
+        <div class="wrapper">
+            <div class="slds-var-p-around_medium header_color">
+                <c-cv_-my-resume-header social-details={resumeData.SOCIAL_LINKS} user-details={resumeData.USER_DETAILS} profile-image={resumeData.PROFILE_IMAGE}></c-cv_-my-resume-header>
             </div>
         </div>
+        <div class="slds-var-p-around_medium">
+            <c-cv_-my-resume-summary details={resumeData.CAREER_SUMMARY}></c-cv_-my-resume-summary> 
+        </div>
+        <div class="slds-var-p-around_medium">
+            <div class="slds-grid slds-wrap">
+                <div class="slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12">
+                    <c-cv_-my-resume-experience details={resumeData.EXPERIENCE_DATA}></c-cv_-my-resume-experience>
+                </div>
+                <div class="slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12">
+                    <c-cv_-my-resume-skills details={resumeData.SKILLS_DATA}></c-cv_-my-resume-skills>
+                    <c-cv_-my-resume-extra details={resumeData.CERTIFICATION_DATA}></c-cv_-my-resume-extra>
+                    <c-cv_-my-resume-extra details={resumeData.EDUCATION_DATA}></c-cv_-my-resume-extra>
+                    <c-cv_-my-resume-extra details={resumeData.INTERESTS_DATA}></c-cv_-my-resume-extra>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div align="center" class="resContentBlock">
+        <lightning-button variant="success" label="Download Resume" title="Download Resume" onclick={handleGeneratePDF} class="slds-var-m-left_x-small"></lightning-button>
     </div>
 </template>
