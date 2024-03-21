@@ -11,23 +11,17 @@ export const SOCIAL_LINKS = [
         icon: SOCIAL + '/SOCIAL/linkedin.svg'
     },
     {
-        type: "trailhead",
-        label: "trailhead/KumarVikky",
-        link: "https://trailblazer.me/id/kumar-trail-hub",
-        icon: SOCIAL + '/SOCIAL/trailhead.svg'
-    },
-    {
         type: "github",
         label: "github/KumarVikky",
         link: "https://github.com/KumarVikky",
         icon: SOCIAL + '/SOCIAL/github.svg'
     },
     {
-        type:'twitter',
-        label:"twitter/KumarVikky",
-        link:"https://twitter.com/info2vikky",
-        icon:SOCIAL+'/SOCIAL/twitter.svg'
-    },
+        type: "trailhead",
+        label: "trailhead/KumarVikky",
+        link: "https://trailblazer.me/id/kumar-trail-hub",
+        icon: SOCIAL + '/SOCIAL/trailhead.svg'
+    }
 ];
 
 export const USER_DETAILS = {
@@ -82,10 +76,10 @@ export const SKILLS_DATA = {
     SKILLS:[
         "Have substantial experience in Salesforce Development and Design.",
         "Have hands-on experience with various Salesforce tools, including Apex Classes, Asynchronous Apex, Lightning Web Component, Lightning Component, Visualforce, SOQL/SOSL, Salesforce Integration, and Migration Tool.",
+        "Skilled in integrating various business processes across different systems using various Salesforce API's.",
         "Excellent understanding of Vs Code with Salesforce CLI and other Integrated Development Environments.",
-        "Excellent understanding of Source and Version Control, specifically Git, GitHub & Bitbucket.",
-        "Have good knowledge of HTML, CSS, JavaScript, Core & Advance JAVA, and SQL.",
-        "Skilled in integrating various business processes across different systems using various Salesforce API's."
+        "Excellent understanding of Source and Version Control, specifically GitHub & Bitbucket.",
+        "Have good knowledge of HTML, JavaScript, CSS, Java, Jsp, Servlet, Spring Boot, SQL, Angular & TypeScript.",
     ]
 };
 
