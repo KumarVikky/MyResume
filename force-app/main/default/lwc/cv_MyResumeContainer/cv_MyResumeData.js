@@ -1,7 +1,7 @@
 import SOCIAL from '@salesforce/resourceUrl/SOCIAL'
 import MYIMAGE from '@salesforce/resourceUrl/MyImage'
 
-export const PROFILE_IMAGE = MYIMAGE + '/MyPic_1.jpeg';
+export const PROFILE_IMAGE = MYIMAGE + '/MyImage/MyPic_4.png';
 
 export const SOCIAL_LINKS = [
     {
