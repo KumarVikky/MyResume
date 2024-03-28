@@ -52,7 +52,7 @@ export const EXPERIENCE_DATA = {
                 "Created flows and triggers to automate business processes.",
                 "Worked on multiple batch jobs and scheduled jobs to automate the processing of large volumes of records asynchronously.",
                 "Applied best practices to streamline the business process by leveraging the capabilities of Salesforce with my development expertise.",
-                "Extensive development in Service Cloud."
+                "Extensive development in Service & Experience Cloud."
             ]
         },
         {
@@ -60,12 +60,13 @@ export const EXPERIENCE_DATA = {
             COMPANY_NAME: "Girikon Private Limited.",
             DURATION: "2019 - 2021",
             DESCRIPTION_POINTS: [
-                "Involved in Salesforce Customization.",
-                "Gained knowledge and experience in integration of Salesforce.com with external applications by using web services REST API.",
-                "Develop and maintain test data as necessary to support testing efforts.",
-                "Development using Apex Trigger, Batch Apex, Lightning Component, Lightning Application, Apex, Visualforce page, and Visualforce component.",
+                "Involved in Salesforce Configuration & Customization.",
+                "Gained knowledge and experience in integration of Salesforce.com with external applications (eg. Dropbox, Google Drive) by using Web Service REST API.",
+                "Implemented business requirements using Apex Trigger, Batch Apex, Lightning Component, Lightning Application, Apex, Visualforce page, and Visualforce component.",
                 "Integration with Twilio for sending and receiving messages from salesforce to related contacts through Text or WhatsApp.",
-                "Extensive development in Sales & Experience Cloud."
+                "Worked on Invoice generation using Conga for Salesforce Billing.",
+                "Worked on Salesforce Marketing Cloud (ExactTarget) mainly in email customization using AMPscript.",
+                "Extensive development in Sales Cloud."
             ]
         }
     ]
