@@ -7,13 +7,13 @@ export const SOCIAL_LINKS = [
     {
         type: "linkedin",
         label: "linkedin/KumarVikky",
-        link: "https://www.linkedin.com/in/vikky-kumar",
+        link: "https://www.linkedin.com/in/kumarvikky",
         icon: SOCIAL + '/SOCIAL/linkedin.svg'
     },
     {
         type: "github",
         label: "github/KumarVikky",
-        link: "https://github.com/KumarVikky",
+        link: "https://github.com/kumarvikky",
         icon: SOCIAL + '/SOCIAL/github.svg'
     },
     {
@@ -35,7 +35,7 @@ export const USER_DETAILS = {
 
 export const CAREER_SUMMARY = {
     HEADING:"PROFILE",
-    DESCRIPTION: "I am a Salesforce Certified Developer with 4.5 years of experience currently working as a Salesforce Developer with Accenture, driven by new challenges and capable of adapting to any cultural and business environment. Seeking an opportunity to be part of a progressive organization to use my skills in the best possible way to achieve the company’s goals."
+    DESCRIPTION: "I am a Salesforce Certified Developer with 4.5 years of industry experience currently working as a Salesforce Developer with Accenture, driven by new challenges and capable of adapting to any cultural and business environment. I am seeking an opportunity to be part of a progressive organization to use my skills best to achieve the company’s goals."
 };
 
 export const EXPERIENCE_DATA = { 
