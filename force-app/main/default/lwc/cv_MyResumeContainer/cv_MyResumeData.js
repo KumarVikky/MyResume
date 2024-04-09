@@ -35,7 +35,7 @@ export const USER_DETAILS = {
 
 export const CAREER_SUMMARY = {
     HEADING:"PROFILE",
-    DESCRIPTION: "I am a Salesforce Certified Developer with 4.5 years of industry experience currently working as a Salesforce Developer with Accenture, driven by new challenges and capable of adapting to any cultural and business environment. I am seeking an opportunity to be part of a progressive organization to use my skills best to achieve the company’s goals."
+    DESCRIPTION: "I am a Salesforce Certified Developer with 4.5 years of industry experience in building applications for business needs. My specialization includes Sales, Service, and Experience Cloud, and I am well-versed in both Salesforce Customization and Configuration. I possess professional experience working with Apex Framework, Aura Framework, LWC, Visualforce."
 };
 
 export const EXPERIENCE_DATA = { 
