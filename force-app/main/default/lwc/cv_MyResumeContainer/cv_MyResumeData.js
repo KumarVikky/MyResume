@@ -35,7 +35,7 @@ export const USER_DETAILS = {
 
 export const CAREER_SUMMARY = {
     HEADING:"PROFILE",
-    DESCRIPTION: "I am a Salesforce Certified Developer with 4.5 years of industry experience in building applications for business needs. My specialization includes Sales, Service, and Experience Cloud, and I am well-versed in both Salesforce Customization and Configuration. I possess professional experience working with Apex Framework, Aura Framework, LWC, Visualforce. As a proactive and self-motivated individual, I am eager to learn and grow as a developer. I am passionate about leveraging technology to solve real-world problems and enhance user experiences. Check out my latest project on Ligthning Experience @https://salesarena-dev-ed.my.site.com/Workbench/s/."
+    DESCRIPTION: "I am a Salesforce Certified Developer with 4.5 years of industry experience in building applications for business needs. My specialization includes Sales, Service, and Experience Cloud, and I am well-versed in both Salesforce Customization and Configuration. I possess professional experience working with Apex Framework, Aura Framework, LWC, Visualforce. As a proactive and self-motivated individual, I am eager to learn and grow as a developer. I am passionate about leveraging technology to solve real-world problems and enhance user experiences. Check out my latest project on Ligthning Experience @ https://salesarena-dev-ed.my.site.com/workbenchhub/s/."
 };
 
 export const EXPERIENCE_DATA = { 
